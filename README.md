@@ -8,7 +8,7 @@
  <img src="/public/images/capa.png"/>
 
 
-## 🎴 Layout
+📎 Layout
 
 Layout no Figma
 
