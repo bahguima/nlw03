@@ -1,5 +1,5 @@
 # nlw03
- Projeto desenvolvido durante a terceira edição da Next Level Week, promovida pela Rocketseat. O projeto consiste em criar uma aplicação voltada para orfanatos, onde é possível localizar instituições, cadastrar orfanatos e agendar visitas :)
+ Projeto desenvolvido durante a terceira edição da Next Level Week, promovida pela Rocketseat. O projeto consiste em criar uma aplicação voltada para orfanatos, onde é possível localizar instituições e cadastrar orfanatos :)
 
  <h1 align="center">
     <img alt="Happy" title="Happy" src="./public/images/logo-icon.png" />
