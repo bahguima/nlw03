@@ -1,3 +1,12 @@
+const options = {
+    draggin:false,
+    touchzoom:false,
+    doubleClickZoom:false,
+    scrollWheelZoom:false,
+    zoomControl:false
+}
+
+//create map
 const map = L.map('mapid').setView([-19.9023386,-44.1041341], 15)
 
 //create and add tileLayer
@@ -13,20 +22,12 @@ const icon =L.icon({
     popupAnchor: [170,2]
 })
 
-//create popup overlay
-const popup = L.popup({
-    closeButton: false,
-    className: 'map-popup',
-    minWidth: 240,
-    minHeight: 240
-}).setContent('Lar das meninas <a href="orphanage.html?id=1" class="choose-orphanage"> <img src="./public/images/arrow-white.svg" > </a>')
-
 
 //create and add marker
 L
 .marker([-19.9023386,-44.1041341], { icon })
 .addTo(map)
-.bindPopup(popup)
+
 
     
 
